@@ -1,6 +1,6 @@
 {
   "name": "enf-eosjs",
-  "version": "23.0.0",
+  "version": "23.0.0-lineaje-01",
   "description": "JS API to talk to eos blockchain",
   "main": "dist/index.js",
   "scripts": {
@@ -23,9 +23,15 @@
   },
   "author": "eosnetworkfoundation",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eosnetworkfoundation/mandel-eosjs"
+    "url": "https://github.com/lineaje-labs-gos/eosnetworkfoundation-mandel-eosjs"
   },
   "dependencies": {
     "bn.js": "5.2.0",
