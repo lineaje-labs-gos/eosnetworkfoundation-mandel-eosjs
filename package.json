@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "bn.js": "5.2.0",
-    "elliptic": "6.5.4",
+    "elliptic": ">=6.6.1",
     "hash.js": "1.1.7",
     "node-fetch": "2.6.7"
   },
@@ -88,5 +88,11 @@
     },
     "testRegex": "(/src/.*(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "testEnvironment": "node"
+  },
+  "overrides": {
+    "elliptic": ">=6.6.1"
+  },
+  "resolutions": {
+    "elliptic": ">=6.6.1"
   }
 }
